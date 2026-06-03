@@ -1,0 +1,54 @@
+{"id": "Q01", "language": "zh", "query": "DeepSeek-R1 在处理日语 MMLU 逻辑推理题目时，是否存在特定逻辑谬误的触发模式？", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q02", "language": "zh", "query": "Claude-Sonnet-4.5 在 S-AlpacaEval 的复杂嵌套 JSON 格式指令下，最容易在哪一类约束上失效？", "level": "Instance", "category": "Compliance", "template": "single-model weakness"}
+{"id": "Q03", "language": "zh", "query": "Doubao-seed-1.6 在回答 INCLUDE 中中文专有名词相关题目时，表现出哪些高频幻觉特征？", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q04", "language": "zh", "query": "Qwen-max 在 FLORES-101 俄语到英语语向上，针对长难句的结构性弱项是什么？", "level": "Instance", "category": "Capability", "template": "single-model weakness"}
+{"id": "Q05", "language": "zh", "query": "在 BELEBELE 中，GPT-4o 做菲律宾语（Tagalog）题目时，相比越南语题目主要差在哪些阅读理解子能力上？", "level": "Instance", "category": "Capability", "template": "pairwise comparison"}
+{"id": "Q06", "language": "zh", "query": "在 S-MT-Bench 西班牙语对话中，GPT-5-chat 与 Gemini-2.5-Pro 谁更能在末轮相比初始轮维持角色设定？", "level": "Instance", "category": "Compliance", "template": "pairwise comparison"}
+{"id": "Q07", "language": "zh", "query": "Qwen3-235B-A22B 与 Llama-3.1-405B 在 SAGE 中文跨文化冲突场景下的决策倾向有何显著不同？", "level": "Instance", "category": "Culture", "template": "pairwise comparison"}
+{"id": "Q08", "language": "zh", "query": "在 BELEBELE 印尼语任务中，Ministral-8B-Instruct 与 Qwen3-8B 的语义提取弱项分别体现在哪些题型上？", "level": "Instance", "category": "Capability", "template": "pairwise comparison"}
+{"id": "Q09", "language": "zh", "query": "在 MMMLU 韩语推理集中，Qwen3-235B-A22B 相比 Qwen3-14B 的性能增量主要集中在哪些推理子类？", "level": "Instance", "category": "Capability", "template": "version/scale evolution"}
+{"id": "Q10", "language": "zh", "query": "对比 Qwen-max 与 Qwen3-235B-A22B，在土耳其语 FLORES-101 翻译中的语序对齐稳定性有何差异？", "level": "Instance", "category": "Capability", "template": "version/scale evolution"}
+{"id": "Q11", "language": "zh", "query": "在泰卢固语 MGSM 中，Qwen3-14B 缩小到 Qwen3-4B-Instruct-2507 后，哪些多步算数推理类型最容易受影响？", "level": "Instance", "category": "Capability", "template": "pairwise comparison"}
+{"id": "Q12", "language": "zh", "query": "在 FLORES-101 法语到中文语向上，Grok-3 是否存在源语言句法惯性残留？主要表现在哪些翻译现象上？", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q13", "language": "zh", "query": "o4-mini 在泰语 MGSM 上主要暴露出哪些多步计算弱项？后续应优先补哪类数据？", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
+{"id": "Q14", "language": "zh", "query": "对比 Meta-Llama-3-8B-Instruct 与 Llama-3.1-8B，后者在 INCLUDE 葡萄牙语知识维度上的弱项是被修复了，还是出现了新的退化？", "level": "Iteration", "category": "Improvement", "template": "version/scale evolution"}
+{"id": "Q15", "language": "zh", "query": "openPangu-Ultra-MoE-718B-V1.1 在多语言 benchmark 上的高/中/低资源语种表现，与其在 SuperBLEnD 34 个文化上的文化理解表现是否呈现一致趋势？", "level": "Dataset", "category": "Culture", "template": "capability correlation"}
+{"id": "Q16", "language": "zh", "query": "在处理西班牙语区域知识与文化类题目时，Gemini-2.5-Pro 与 Claude-Sonnet-4.5 谁的表现更稳健？", "level": "Dataset", "category": "Culture", "template": "pairwise comparison"}
+{"id": "Q17", "language": "zh", "query": "分析本次评测的 Grok-3 在所有测试集上的表现，给出重点发现与后续优化建议。", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
+{"id": "Q18", "language": "zh", "query": "针对 Llama-3.1-70B-Instruct 在本次评测中的优势项，分析后续应补充什么类型的知识或数据来保持并强化这些优势。", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
+{"id": "Q19", "language": "zh", "query": "本次评测的 GPT-4o 在 MGSM 孟加拉语表现不佳，可能的影响因素有哪些？分别应如何优化？", "level": "Instance", "category": "Capability", "template": "single-model weakness"}
+{"id": "Q20", "language": "zh", "query": "对比 Ministral-8B-Instruct 在 MMMLU 和 INCLUDE 上的表现差异，为什么同样是知识类能力，会有这些差异？", "level": "Dataset", "category": "Task/Lang", "template": "pairwise comparison"}
+{"id": "Q21", "language": "zh", "query": "对比 openPangu-Ultra-MoE-718B-V1.1 在三个文化相关测试集上的表现，分析三者有哪些关联，采取什么措施能够提升三者表现？", "level": "Dataset", "category": "Culture", "template": "capability correlation"}
+{"id": "Q22", "language": "zh", "query": "分析 Qwen2.5-7B-Instruct 在 INCLUDE 上的表现，哪些领域或学科正确率最低？如果要补数据，应该补什么类型？", "level": "Dataset", "category": "Capability", "template": "single-model weakness"}
+{"id": "Q23", "language": "zh", "query": "分析 Llama-3.1-8B 在 FLORES-101 印欧语系相关语向上的表现，哪些语种好，哪些差？为什么同属印欧语系仍有明显差异？", "level": "Dataset", "category": "Task/Lang", "template": "pairwise comparison"}
+{"id": "Q24", "language": "zh", "query": "分析 Qwen3-VL-235B-A22B 在 FLORES-101 菲律宾语（Tagalog）到中文语向上的表现。更可能的原因是平行语料不足、句法差异还是术语对齐问题？", "level": "Instance", "category": "Task/Lang", "template": "single-model weakness"}
+{"id": "Q25", "language": "zh", "query": "使用 Markdown 表格展示 Llama-3.1-70B-Instruct 在 MMMLU 各语种上的分数，并按语系语族分析优劣势以及后续需要补充的知识。", "level": "Dataset", "category": "Task/Lang", "template": "optimisation advice"}
+{"id": "Q26", "language": "zh", "query": "基于 DeepSeek-V3.1 在 MMMLU 上的表现，分析后续更应在预训练阶段补知识，还是在 SFT 阶段加强训练？", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
+{"id": "Q27", "language": "zh", "query": "本次评测的 Qwen3-4B-Instruct-2507 在数学 MGSM 上表现较差，主要有哪些错误类型影响了正确率？", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q28", "language": "zh", "query": "GLM-4.6 在 MGSM 各个语种中，有多少题是因为输出格式不符合要求而被判错？如何改善？", "level": "Instance", "category": "Compliance", "template": "single-model weakness"}
+{"id": "Q29", "language": "zh", "query": "Claude-Sonnet-4.5 在 S-MT-Bench 各任务类型上的准确率分别是多少？后续应如何重点提升弱项？", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
+{"id": "Q30", "language": "zh", "query": "分析 Qwen3-4B-Instruct-2507 在各能力维度和语种上的表现，哪些是优势项，哪些是明显短板？", "level": "Dataset", "category": "Task/Lang", "template": "single-model weakness"}
+{"id": "Q31", "language": "zh", "query": "分析 Qwen-7B-Chat 在 BELEBELE 阅读理解上的表现，哪些语种最弱？对应分数分别是多少？", "level": "Dataset", "category": "Task/Lang", "template": "single-model weakness"}
+{"id": "Q32", "language": "zh", "query": "分析 Qwen3-4B-Base 在 S-AlpacaEval 中，哪类指令遵循任务错误率最高？", "level": "Dataset", "category": "Compliance", "template": "single-model weakness"}
+{"id": "Q33", "language": "zh", "query": "分析 DeepSeek-V3.1 在 BELEBELE 希腊语 MCQ 答案输出格式方面存在哪些问题？这些问题对最终正确率造成了多大影响？", "level": "Dataset", "category": "Compliance", "template": "single-model weakness"}
+{"id": "Q34", "language": "zh", "query": "GPT-4o 在 SuperBLEnD 34 个文化上的表现体现出其对哪些区域文化掌握得更好、哪些最差？这些差异对后续文化知识补强有什么启发？", "level": "Dataset", "category": "Culture", "template": "single-model weakness"}
+{"id": "Q35", "language": "zh", "query": "基于 tag_category 与错误类型，哪些 tag × 语种 × benchmark 组合最值得做实例级深挖？请给出代表性失败样本与原因。", "level": "Instance", "category": "Capability", "template": "application-oriented model selection"}
+{"id": "Q36", "language": "zh", "query": "在多语言评测基准套件中，哪些模型最容易出现文化事实错误？这些错误更像知识缺口、文化误解，还是推理失真？", "level": "Instance", "category": "Culture", "template": "single-model weakness"}
+{"id": "Q37", "language": "zh", "query": "以 Gemini-2.5-Pro 为例，当前低分主要是认知失败，还是输出失败（空响应、格式错误、退化输出）？请给出具体证据。", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q38", "language": "zh", "query": "对比 GPT-5-chat 与 Gemini-2.5-Pro，它们的差异主要体现为文化判断能力差异，还是输出稳定性差异？请给出证据。", "level": "Dataset", "category": "Culture", "template": "pairwise comparison"}
+{"id": "Q39", "language": "zh", "query": "找出 Qwen3-235B-A22B 错而 GPT-5-chat 对的代表性案例，并分析这些案例暴露出的文化理解缺陷或推理缺陷。", "level": "Instance", "category": "Culture", "template": "pairwise comparison"}
+{"id": "Q40", "language": "zh", "query": "Qwen3-235B-A22B 在多语言评测基准套件的哪些语言、文化或国家分组上表现最弱？请按支持度排序，并说明这些分组为何值得关注。", "level": "Dataset", "category": "Culture", "template": "single-model weakness"}
+{"id": "Q41", "language": "zh", "query": "如果要选一个模型作为诊断系统的强基线，应优先选哪个？请同时考虑准确率、文化敏感性、输出稳定性和覆盖面。", "level": "Dataset", "category": "Task/Lang", "template": "application-oriented model selection"}
+{"id": "Q42", "language": "zh", "query": "哪些模型更容易出现重复退化输出、异常循环响应或明显事实性错误？这些问题主要集中在哪些 benchmark、语言或题型上？", "level": "Instance", "category": "Behavior", "template": "single-model weakness"}
+{"id": "Q43", "language": "zh", "query": "在泰语 S-AlpacaEval 的多约束与格式约束类指令中，哪些指令遵循维度最能拉开 o3 与其他强模型的差距？", "level": "Dataset", "category": "Compliance", "template": "application-oriented model selection"}
+{"id": "Q44", "language": "zh", "query": "在多语言数学助教场景下，Qwen3-14B 和 Llama-3.1-8B 哪个更适合作为轻量部署模型？请结合 MGSM 的语言分布与错误类型给出依据。", "level": "Dataset", "category": "Capability", "template": "application-oriented model selection"}
+{"id": "Q45", "language": "zh", "query": "Ministral-8B-Instruct 在捷克语 BELEBELE 中，主要失误集中在细节定位、否定问法（e.g.，以下不正确的是）还是近义选项区分？请给出代表性错题证据。", "level": "Instance", "category": "Capability", "template": "application-oriented model selection"}
+{"id": "Q46", "language": "zh", "query": "在 SAGE 西班牙语跨文化冲突情境下，DeepSeek-V3.1 与 Qwen-max 谁更容易误判文化细微差别？请给出代表性案例与解释。", "level": "Instance", "category": "Culture", "template": "pairwise comparison"}
+{"id": "Q47", "language": "zh", "query": "GPT-5-chat 在日语 S-MT-Bench 的第二轮改写与新增约束任务中，能否正确继承前文并执行新约束？主要失败在内容继承、格式约束还是风格变更上？", "level": "Instance", "category": "Compliance", "template": "single-model weakness"}
+{"id": "Q48", "language": "zh", "query": "对比 Meta-Llama-3-8B-Instruct 与 Llama-3.1-8B，在荷兰语 INCLUDE 实体与专有名词相关题目中，3.1 版本相对 3 版本修复了哪些知识错误？哪些错误类型仍未改善，是否引入新的退化？", "level": "Iteration", "category": "Improvement", "template": "version/scale evolution"}
+{"id": "Q49", "language": "zh", "query": "对比 GPT-4o 与 GPT-5-chat，在西班牙语 MMMLU 逻辑推理题上，GPT-5-chat 的提升主要来自知识覆盖、推理链稳定性，还是输出选择稳定性？是否出现新的过度思考问题？", "level": "Iteration", "category": "Improvement", "template": "version/scale evolution"}
+{"id": "Q50", "language": "zh", "query": "Gemma-3-12B-IT 在希腊语 BELEBELE 阅读题与 INCLUDE 历史/实体知识题上的错误类型是否一致？哪些子类表现同步偏弱？", "level": "Dataset", "category": "Capability", "template": "capability correlation"}
+{"id": "Q51", "language": "zh", "query": "Llama-3.1-405B 在西班牙语 INCLUDE 与葡萄牙语 INCLUDE 上的知识错误是否呈现同语系共性？哪些知识类别在两种语言中表现不一致？", "level": "Dataset", "category": "Task/Lang", "template": "capability correlation"}
+{"id": "Q52", "language": "zh", "query": "Doubao-seed-1.6 在 SAGE 中文跨文化冲突题中的误判，是否与其在 S-AlpacaEval 安全/拒答/过度顺从类指令上的行为模式共现？请给出代表性样本。", "level": "Instance", "category": "Culture", "template": "capability correlation"}
+{"id": "Q53", "language": "zh", "query": "Qwen-max 在 CultureScope 中文、英文与西班牙文题目中，遇到礼貌等级、社交距离或文化禁忌相关场景时，是否存在稳定误判？误判更像文化知识缺口还是语用场景误读？", "level": "Instance", "category": "Culture", "template": "single-model weakness"}
+{"id": "Q54", "language": "zh", "query": "针对 o4-mini 在 SAGE 中文文化禁忌与跨文化冲突题中的弱项表现，后续应优先补充哪些文化情境或对齐数据？请结合代表性错误案例说明。", "level": "Iteration", "category": "Improvement", "template": "optimisation advice"}
